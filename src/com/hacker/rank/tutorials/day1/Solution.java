@@ -1,4 +1,4 @@
-package com.hacker.rank.tutorials;
+package com.hacker.rank.tutorials.day1;
 
 import java.util.Scanner;
 
@@ -33,6 +33,7 @@ Print "Weird" if the number is weird. Otherwise, print "Not Weird". Do not print
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);
+        
         int n=sc.nextInt();
 
         String ans="";
@@ -52,5 +53,6 @@ Print "Weird" if the number is weird. Otherwise, print "Not Weird". Do not print
         }
         System.out.println(ans);
 
+        sc.close();
     }
 }
