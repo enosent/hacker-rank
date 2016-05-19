@@ -1,4 +1,4 @@
-package com.hacker.rank.tutorials.day1;
+package com.hacker.rank.tutorials.day3;
 
 import java.util.Scanner;
 
