@@ -1,4 +1,4 @@
-package com.hacker.rank.java.step4;
+package com.hacker.rank.java.introduction.step4;
 
 import java.util.Scanner;
 
