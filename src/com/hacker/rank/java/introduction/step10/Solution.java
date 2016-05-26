@@ -8,23 +8,20 @@ public class Solution {
 
 		Do_Not_Terminate.forbidExit();
 
-		try{
-			Scanner in = new Scanner(System.in);
+		try(Scanner in = new Scanner(System.in)) {
+
 			int n=in.nextInt();
 			//String s=???; Complete this line below
 			String s = String.valueOf(n);
 
 			//Write your code here
-			if(n==Integer.parseInt(s))
-			{
+			if(n==Integer.parseInt(s)) {
 				System.out.println("Good job");
 			}
-			else
-			{
+			else {
 				System.out.println("Wrong answer.");
 			}
-		}
-		catch (Do_Not_Terminate.ExitTrappedException e) {
+		} catch (Do_Not_Terminate.ExitTrappedException e) {
 			System.out.println("Unsuccessful Termination!!");
 		}
 	}
@@ -49,5 +46,4 @@ class Do_Not_Terminate {
 		};
 		System.setSecurityManager(securityManager);
 	}
-}	
-
+}
