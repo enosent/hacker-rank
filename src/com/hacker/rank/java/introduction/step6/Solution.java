@@ -1,4 +1,4 @@
-package com.hacker.rank.java.step6;
+package com.hacker.rank.java.introduction.step6;
 
 import java.util.Scanner;
 
@@ -53,3 +53,32 @@ In the first case:
         scan.close();
     }
 }
+
+// # 간단한 해결법
+/*
+            for(int j=0;j<n;j++)
+            {
+                a+=b;
+                if(j>0)
+                System.out.print(" ");
+                System.out.print(a);
+
+                b=b*2;
+            }
+            System.out.println("");
+            
+            cf> 0 2 10
+            
+            1)
+            a = 0 + 2
+            b = 2 * 2
+            
+            2)
+            a = (0+2) + (2*2)
+            b = (2*2) * 2
+            
+            3)
+            a = ((0+2) + (2*2)) + (2*2) * 2
+            b = ((2*2) * 2) * 2
+            ..            
+*/

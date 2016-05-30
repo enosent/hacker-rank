@@ -1,4 +1,4 @@
-package com.hacker.rank.java.step4;
+package com.hacker.rank.java.introduction.step4;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class Solution {
 
-    /*
+	/*
 Input Format
 
 There are three lines of input.
@@ -22,23 +22,26 @@ On the second line, print Double: followed by the unaltered input double.
 On the third line, print Int: followed by the unaltered input integer.
 
 
-     */
+	 */
 
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int x=sc.nextInt();
-        //Complete this code
-        sc.nextLine();
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
 
-        double y = sc.nextDouble();
-        sc.nextLine();
+		int x=sc.nextInt();
+		//Complete this code
+		sc.nextLine();
 
-        String s = sc.nextLine();
+		double y = sc.nextDouble();
+		sc.nextLine();
+
+		String s = sc.nextLine();
 
 
-        System.out.println("String: "+s);
-        System.out.println("Double: "+y);
-        System.out.println("Int: "+x);
-    }
+		System.out.println("String: "+s);
+		System.out.println("Double: "+y);
+		System.out.println("Int: "+x);
+
+		sc.close();
+	}
 
 }
