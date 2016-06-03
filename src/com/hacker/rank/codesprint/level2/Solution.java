@@ -1,6 +1,5 @@
 package com.hacker.rank.codesprint.level2;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -53,5 +52,7 @@ public class Solution {
         } else {
             System.out.println(-1);
         }
+        
+        in.close();
     }
 }
