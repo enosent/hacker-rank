@@ -16,17 +16,19 @@ public class DuplicateWords {
         while(testCases>0){
             String input = in.nextLine();
             Matcher m = r.matcher(input);
-            boolean findMatch = true;
+//            boolean findMatch = true;
             while(m.find( )){
             	
-            	System.out.println(m.group());
-            	System.out.println(m.group(1));
+//            	System.out.println(m.group());
+//            	System.out.println(m.group(1));
             	
                 input = input.replaceAll(m.group(),m.group(1));
-                findMatch = false;
+//                findMatch = false;
             }
             System.out.println(input);
             testCases--;
         }
+        
+        in.close();
     }
 }
