@@ -1,4 +1,4 @@
-package com.hacker.rank.tutorials.day2;
+package com.hacker.rank.tutorials.day02;
 
 import java.util.*;
 

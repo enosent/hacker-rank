@@ -1,4 +1,4 @@
-package com.hacker.rank.tutorials.day8;
+package com.hacker.rank.tutorials.day08;
 
 import java.util.HashMap;
 import java.util.Map;
