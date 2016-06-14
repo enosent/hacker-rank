@@ -1,4 +1,4 @@
-package com.hacker.rank.java.strings.step4;
+package com.hacker.rank.java.strings.step04;
 
 import java.util.Arrays;
 import java.util.Scanner;

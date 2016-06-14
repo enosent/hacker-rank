@@ -1,4 +1,4 @@
-package com.hacker.rank.java.strings.step8;
+package com.hacker.rank.java.strings.step08;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
