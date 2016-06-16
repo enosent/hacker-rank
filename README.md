@@ -5,3 +5,5 @@
 * java :
   - introduction : https://www.hackerrank.com/domains/java/java-introduction
   - strings : https://www.hackerrank.com/domains/java/java-strings/difficulty/all/page/1
+  - data structure : https://www.hackerrank.com/domains/java/java-data-structure
+
