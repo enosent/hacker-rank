@@ -1,4 +1,4 @@
-package com.hacker.rank.java.datastructure.java1Darray;
+package com.hacker.rank.java.datastructure.step01;
 
 import java.util.Scanner;
 
