@@ -3,11 +3,7 @@ package com.hacker.rank.codesprint.world4.step01;
 /**
  * Created by enosent on 2016. 6. 26..
  */
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Solution {
 
@@ -34,5 +30,6 @@ public class Solution {
         }
 
         System.out.println((min == A.length)?-1:min);
+        in.close();
     }
 }
